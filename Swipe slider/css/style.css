@@ -40,7 +40,9 @@ figure {
     position: absolute;
 }
 .slide-manual,
-.slide-automanual {
+.slide-automanual,
+.fade-manual,
+.fade-automanual {
     cursor: pointer;
 }
 
