@@ -124,8 +124,6 @@ function SliderBase() {
 
         this.animateSwiping();
         this.startClientX = null;
-        this.tapeNode.removeEventListener('mousemove');
-        this.tapeNode.removeEventListener('touchmove');
     };
     this.getStartClientXPosition = function(e) {
         cancelBubbling(e);
